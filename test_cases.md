@@ -1,6 +1,6 @@
 # API MANUAL TEST CASES
 
-## Test Case 1: Get list of inventory devices
+### Test Case 1: Get list of inventory devices
 - **Test ID:** TC_GET_001  
 - **Description:** Verify that the API returns all devices available in the inventory.  
 - **Steps:**  
@@ -12,7 +12,7 @@
   - Actual Result: The response returns list of all devices in the system.
 
 
-## Test Case 2: Add new device to inventory
+### Test Case 2: Add new device to inventory
 - **Test ID:** TC_PUT_002  
 - **Description:** Verify that a new device can be added to the inventory.  
 - **Steps:**  
@@ -31,7 +31,7 @@
   - The device is added successfully.
 
 
-## Test Case 3: Add device to inventory without populating required body
+### Test Case 3: Add device to inventory without populating required body
 - **Test ID:** TC_POST_003
 - **Description:** Verify that adding a device with missing required fields fails.
 - **Steps:**
